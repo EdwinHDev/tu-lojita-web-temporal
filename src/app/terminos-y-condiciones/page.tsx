@@ -23,7 +23,7 @@ export default function TerminosYCondicionesPage() {
         <div className="mb-6 sm:mb-8">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors group"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors group"
           >
             <span className="inline-block transition-transform group-hover:-translate-x-1 font-bold">←</span>
             Volver al inicio
@@ -38,7 +38,7 @@ export default function TerminosYCondicionesPage() {
           <h1 className="text-2xl min-[480px]:text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-950 dark:text-white mb-3 sm:mb-4 leading-tight break-words">
             Términos y Condiciones de Uso de la Plataforma
           </h1>
-          <p className="text-xs sm:text-sm font-bold text-indigo-700 dark:text-indigo-400">
+          <p className="text-sm font-bold text-indigo-700 dark:text-indigo-400">
             Versión vigente: 16 de septiembre de 2026
           </p>
         </header>
@@ -54,47 +54,47 @@ export default function TerminosYCondicionesPage() {
           </p>
 
           <div className="space-y-3 sm:space-y-4">
-            <div className="p-4 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-              <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-1">
+            <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+              <h3 className="font-bold text-slate-950 dark:text-white text-base mb-1">
                 El Marketplace
               </h3>
-              <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                 Es el entorno digital donde las Personas Usuarias (Compradores, Emprendedores y Empresas) pueden conectar para acordar la compra y venta de bienes y servicios.
               </p>
             </div>
 
-            <div className="p-4 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-              <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-1">
+            <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+              <h3 className="font-bold text-slate-950 dark:text-white text-base mb-1">
                 Soluciones para Emprendedores
               </h3>
-              <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                 La aplicación móvil para Emprendedores es la herramienta simplificada para publicar productos y acordar ventas de contado de forma directa.
               </p>
             </div>
 
-            <div className="p-4 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-              <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-1">
+            <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+              <h3 className="font-bold text-slate-950 dark:text-white text-base mb-1">
                 Soluciones para Empresas y CRM
               </h3>
-              <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                 La aplicación móvil y web para Empresas es la herramienta que permite a comercios verificados gestionar inventarios, organizar su catálogo y estructurar ventas a crédito o pagos parciales con sus clientes.
               </p>
             </div>
 
-            <div className="p-4 rounded-xl sm:rounded-2xl bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800">
-              <h3 className="font-bold text-amber-950 dark:text-amber-200 text-sm sm:text-base mb-1">
+            <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800">
+              <h3 className="font-bold text-amber-950 dark:text-amber-200 text-base mb-1">
                 Independencia Operativa
               </h3>
-              <p className="text-xs sm:text-sm text-amber-950 dark:text-amber-100 leading-relaxed">
+              <p className="text-sm sm:text-base text-amber-950 dark:text-amber-100 leading-relaxed font-normal">
                 La plataforma <strong>no es un banco, pasarela de pago ni agente financiero</strong>. No recaudamos ni custodiamos dinero de las transacciones entre usuarios.
               </p>
             </div>
 
-            <div className="p-4 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-              <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-1">
+            <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+              <h3 className="font-bold text-slate-950 dark:text-white text-base mb-1">
                 Aceptación y Responsabilidad
               </h3>
-              <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                 Para operar en el Ecosistema, toda Persona Usuaria debe aceptar estos Términos y Condiciones y la Política de Privacidad. Cada usuario es responsable de la veracidad de sus datos y del resguardo de sus credenciales de acceso.
               </p>
             </div>
@@ -117,15 +117,15 @@ export default function TerminosYCondicionesPage() {
               <h3 className="text-base sm:text-lg font-bold text-slate-950 dark:text-white">
                 A. Naturaleza del Servicio e Intermediación Neutral
               </h3>
-              <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                 La Plataforma consiste exclusivamente en un canal tecnológico de directorio, vitrina digital y comunicación interactiva que facilita el contacto entre vendedores independientes y potenciales compradores.
               </p>
 
-              <div className="p-4 rounded-xl sm:rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-300 dark:border-rose-800">
-                <h4 className="font-bold text-rose-950 dark:text-rose-200 text-xs sm:text-sm mb-2">
+              <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-300 dark:border-rose-800">
+                <h4 className="font-bold text-rose-950 dark:text-rose-200 text-sm sm:text-base mb-2">
                   Exención de Funciones Financieras:
                 </h4>
-                <ul className="list-disc list-inside space-y-1.5 text-xs sm:text-sm text-rose-950 dark:text-rose-100 leading-relaxed">
+                <ul className="list-disc list-inside space-y-1.5 text-sm sm:text-base text-rose-950 dark:text-rose-100 leading-relaxed">
                   <li>La Plataforma <strong>no es un banco, entidad financiera, prestamista, ni agente de pago o custodia (escrow)</strong>.</li>
                   <li>La Plataforma no procesa, recibe, cobra ni retiene dinero derivado de las transacciones entre los Usuarios.</li>
                   <li>Todos los acuerdos económicos (pagos de contado, transferencias directas, Pago Móvil, cuotas de financiamiento o entregas de efectivo) se acuerdan y ejecutan de forma 100% directa y privada entre el Vendedor y el Comprador.</li>
@@ -141,33 +141,33 @@ export default function TerminosYCondicionesPage() {
               </h3>
 
               <div className="space-y-3 sm:space-y-4">
-                <div className="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 p-4 rounded-xl sm:rounded-2xl">
-                  <h4 className="font-bold text-slate-950 dark:text-white text-xs sm:text-sm md:text-base mb-1.5 sm:mb-2">
+                <div className="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 p-4 sm:p-5 rounded-xl sm:rounded-2xl">
+                  <h4 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
                     1. Rol &quot;Emprendedor&quot; (Ventas al Contado / Perfil Simplificado)
                   </h4>
-                  <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+                  <ul className="list-disc list-inside space-y-1 text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                     <li>Perfil diseñado para la publicación de productos y gestión de ventas de contado.</li>
                     <li><strong>Acceso a Datos:</strong> El Emprendedor únicamente tendrá acceso al nombre, número telefónico y dirección proporcionada por el Comprador para la coordinación de la entrega.</li>
                     <li><strong>Restricción Expresa:</strong> El Emprendedor no tiene acceso al módulo de financiamiento, ventas a crédito, pagos parciales ni a la captura de documentos de identidad de los compradores.</li>
                   </ul>
                 </div>
 
-                <div className="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 p-4 rounded-xl sm:rounded-2xl">
-                  <h4 className="font-bold text-slate-950 dark:text-white text-xs sm:text-sm md:text-base mb-1.5 sm:mb-2">
+                <div className="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 p-4 sm:p-5 rounded-xl sm:rounded-2xl">
+                  <h4 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
                     2. Rol &quot;Empresa&quot; (Perfil Verificado)
                   </h4>
-                  <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+                  <ul className="list-disc list-inside space-y-1 text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                     <li>Requiere la validación previa del Registro de Información Fiscal (RIF) de persona jurídica o Firma Personal del titular.</li>
                     <li>Habilita el acceso al módulo de configuración de esquemas de pago parcial / crédito y la gestión de clientes en CRM.</li>
                     <li><strong>Responsabilidad Fiscal:</strong> Cada Empresa es la única responsable de emitir las facturas correspondientes, cumplir con las normativas tributarias y responder legalmente por los productos o servicios ofrecidos.</li>
                   </ul>
                 </div>
 
-                <div className="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 p-4 rounded-xl sm:rounded-2xl">
-                  <h4 className="font-bold text-slate-950 dark:text-white text-xs sm:text-sm md:text-base mb-1.5 sm:mb-2">
+                <div className="bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 p-4 sm:p-5 rounded-xl sm:rounded-2xl">
+                  <h4 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
                     3. Rol &quot;Comprador&quot;
                   </h4>
-                  <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-slate-800 dark:text-slate-200 leading-relaxed">
+                  <ul className="list-disc list-inside space-y-1 text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
                     <li>Usuario que navega, consulta e inicia contacto para adquirir productos o servicios.</li>
                     <li>Reconoce que negocia de forma directa con terceros independientes (Emprendedores o Empresas) y se compromete a verificar las condiciones del producto antes de realizar cualquier pago.</li>
                   </ul>
@@ -178,39 +178,39 @@ export default function TerminosYCondicionesPage() {
 
           {/* 2. MÓDULO DE PAGOS PARCIALES, CRÉDITO Y PENALIZACIONES */}
           <article className="bg-white dark:bg-slate-900 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
-            <h2 className="text-lg sm:text-2xl font-bold text-slate-950 dark:text-white mb-3 sm:mb-4">
+            <h2 className="text-lg sm:text-2xl font-bold text-slate-950 dark:text-white mb-4">
               2. Módulo de Pagos Parciales, Crédito y Penalizaciones
             </h2>
 
-            <div className="space-y-3 sm:space-y-4 text-slate-800 dark:text-slate-200 leading-relaxed">
-              <div className="p-4 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-                <h3 className="font-bold text-slate-950 dark:text-white text-xs sm:text-sm md:text-base mb-1">
+            <div className="space-y-4">
+              <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+                <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
                   1. Autonomía del Crédito
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200">
+                <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed font-normal">
                   La opción de solicitar o conceder ventas a crédito o pagos parciales es una herramienta técnica de cálculo entre la Empresa y el Comprador. La Plataforma no otorga créditos ni garantiza el cobro de los mismos.
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-                <h3 className="font-bold text-slate-950 dark:text-white text-xs sm:text-sm md:text-base mb-1">
+              <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+                <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
                   2. Transparencia en Recargos y Mora
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 mb-2">
+                <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 mb-3 leading-relaxed font-normal">
                   Antes de confirmar una compra a crédito, la aplicación mostrará desglosado:
                 </p>
-                <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-slate-800 dark:text-slate-200 ml-1 sm:ml-2">
+                <ul className="list-disc list-inside space-y-1.5 text-sm sm:text-base text-slate-800 dark:text-slate-200 ml-1 sm:ml-2 leading-relaxed">
                   <li>El monto de la primera cuota o inicial.</li>
                   <li>El porcentaje de recargo por financiamiento fijado por la Empresa.</li>
                   <li>La tasa o porcentaje de multa por mora aplicable en caso de retraso en los pagos.</li>
                 </ul>
               </div>
 
-              <div className="p-4 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-                <h3 className="font-bold text-slate-950 dark:text-white text-xs sm:text-sm md:text-base mb-1">
+              <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
+                <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
                   3. Gestión de Cobro
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200">
+                <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed font-normal">
                   La Plataforma no ejecuta labores de cobranza judicial ni extrajudicial. La gestión de cobro ante eventuales morosidades es responsabilidad exclusiva de la Empresa vendedora.
                 </p>
               </div>
@@ -223,7 +223,7 @@ export default function TerminosYCondicionesPage() {
               3. Propiedad Intelectual y Conducta
             </h2>
 
-            <ul className="space-y-3 sm:space-y-4 text-slate-800 dark:text-slate-200 leading-relaxed text-xs sm:text-sm md:text-base">
+            <ul className="space-y-3 sm:space-y-4 text-slate-800 dark:text-slate-200 leading-relaxed text-sm sm:text-base">
               <li className="flex items-start gap-2.5 sm:gap-3">
                 <span className="w-1.5 h-1.5 rounded-full bg-indigo-600 dark:bg-indigo-400 mt-2 shrink-0"></span>
                 <p>
@@ -256,7 +256,7 @@ export default function TerminosYCondicionesPage() {
               <h3 className="text-base sm:text-lg font-bold text-slate-950 dark:text-white">
                 A. Comisión por Venta (Cargo por Servicio de Intermediación)
               </h3>
-              <ul className="list-disc list-inside space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-slate-800 dark:text-slate-200 ml-1 sm:ml-2">
+              <ul className="list-disc list-inside space-y-1.5 sm:space-y-2 text-sm sm:text-base text-slate-800 dark:text-slate-200 ml-1 sm:ml-2">
                 <li>
                   <strong className="text-slate-950 dark:text-white">Concepto:</strong> Por cada transacción o venta concretada a través del Ecosistema, el Vendedor (Emprendedor o Empresa) se obliga a pagar a la Plataforma una tarifa porcentual o fija denominada Comisión por Servicio de Intermediación.
                 </li>
@@ -271,10 +271,10 @@ export default function TerminosYCondicionesPage() {
               <h3 className="text-base sm:text-lg font-bold text-slate-950 dark:text-white">
                 B. Mecanismo de Declaración y Pago de Comisiones
               </h3>
-              <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 font-medium">
+              <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 font-medium">
                 Dado que los pagos de los Compradores son recibidos directamente por el Vendedor:
               </p>
-              <ol className="list-decimal list-inside space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-slate-800 dark:text-slate-200 ml-1 sm:ml-2">
+              <ol className="list-decimal list-inside space-y-1.5 sm:space-y-2 text-sm sm:text-base text-slate-800 dark:text-slate-200 ml-1 sm:ml-2">
                 <li>
                   <strong className="text-slate-950 dark:text-white">Registro de Ventas:</strong> Toda venta o acuerdo de crédito generado en la Plataforma quedará registrado en el panel del Vendedor.
                 </li>
@@ -293,13 +293,13 @@ export default function TerminosYCondicionesPage() {
                 C. Consecuencias por Infracción o Falta de Pago de Comisiones
               </h3>
               <div className="space-y-2.5 sm:space-y-3">
-                <div className="p-4 rounded-xl sm:rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-300 dark:border-rose-800 text-xs sm:text-sm">
+                <div className="p-4 rounded-xl sm:rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-300 dark:border-rose-800 text-sm sm:text-base">
                   <strong className="text-rose-950 dark:text-rose-200 font-bold">Suspensión por Morosidad:</strong>{" "}
                   <span className="text-rose-950 dark:text-rose-100">
                     El incumplimiento en el pago de las comisiones en el plazo estipulado generará la suspensión automática de la cuenta del Vendedor, inhabilitando la publicación de nuevos productos y el acceso a las herramientas del CRM.
                   </span>
                 </div>
-                <div className="p-4 rounded-xl sm:rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-300 dark:border-rose-800 text-xs sm:text-sm">
+                <div className="p-4 rounded-xl sm:rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-300 dark:border-rose-800 text-sm sm:text-base">
                   <strong className="text-rose-950 dark:text-rose-200 font-bold">Prohibición de Cancelaciones Fraudulentas:</strong>{" "}
                   <span className="text-rose-950 dark:text-rose-100">
                     Queda estrictamente prohibido marcar una venta como &quot;no concretada&quot; o &quot;cancelada&quot; dentro de la app si la transacción económica realmente se realizó, con el fin de evadir la comisión. Detectar esta conducta dará lugar al cierre definitivo de la cuenta y la pérdida de reputación en la Plataforma.
@@ -316,14 +316,14 @@ export default function TerminosYCondicionesPage() {
             <p className="text-xs text-slate-600 dark:text-slate-300 mb-0.5 font-medium">¿Deseas conocer cómo protegemos tu información?</p>
             <Link
               href="/politicas-de-privacidad"
-              className="text-xs sm:text-sm font-bold text-indigo-700 dark:text-indigo-400 hover:underline"
+              className="text-sm font-bold text-indigo-700 dark:text-indigo-400 hover:underline"
             >
               Consultar Política de Privacidad →
             </Link>
           </div>
           <Link
             href="/"
-            className="w-full sm:w-auto px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-slate-900 hover:opacity-90 transition-opacity text-center shadow-xs"
+            className="w-full sm:w-auto px-5 py-2.5 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-slate-900 hover:opacity-90 transition-opacity text-center shadow-xs"
           >
             Volver a Tu Lojita
           </Link>
