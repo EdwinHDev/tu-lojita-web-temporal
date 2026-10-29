@@ -133,31 +133,69 @@ export default function PoliticasDePrivacidadPage() {
             </p>
           </article>
 
-          {/* 4. DERECHOS DE LOS USUARIOS Y ELIMINACIÓN DE CUENTAS (DERECHOS ARCO) */}
+          {/* 4. DERECHOS DE LOS USUARIOS Y ELIMINACIÓN DE CUENTAS (DERECHOS ARCO & GOOGLE PLAY) */}
           <article className="bg-white dark:bg-slate-900 p-5 sm:p-8 rounded-2xl sm:rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
             <h2 className="text-lg sm:text-2xl font-bold text-slate-950 dark:text-white mb-3 sm:mb-4">
               4. Derechos de los Usuarios y Eliminación de Cuentas (Derechos ARCO)
             </h2>
-            <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 mb-3 sm:mb-4 leading-relaxed font-medium">
-              Todo Usuario tiene derecho a acceder, corregir, actualizar o <strong className="text-slate-950 dark:text-white">solicitar la eliminación definitiva</strong> de su cuenta y datos personales de nuestros servidores.
+            <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 mb-4 leading-relaxed font-medium">
+              Todo Usuario de las aplicaciones móviles <strong className="text-slate-950 dark:text-white">Tu Lojita</strong> y <strong className="text-slate-950 dark:text-white">Tu Lojita Business</strong> tiene derecho a acceder, rectificar o <strong className="text-slate-950 dark:text-white">solicitar la eliminación definitiva de su cuenta y datos personales</strong>.
             </p>
 
-            <div className="space-y-3 sm:space-y-4">
+            <div className="space-y-4">
+              {/* Canales de solicitud */}
               <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-                <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-1">
-                  Procedimiento para la eliminación de datos
+                <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
+                  Procedimiento para solicitar la eliminación de cuenta
                 </h3>
-                <p className="text-sm sm:text-base text-slate-800 dark:text-slate-200 leading-relaxed">
-                  El usuario puede solicitar el borrado completo enviando un correo electrónico a la dirección oficial de soporte de la Plataforma o mediante el botón <strong className="text-slate-950 dark:text-white">&quot;Eliminar Cuenta&quot;</strong> ubicado en el menú de configuración de la aplicación móvil.
-                </p>
+                <ul className="text-sm sm:text-base text-slate-800 dark:text-slate-200 space-y-2 list-disc list-inside leading-relaxed">
+                  <li>
+                    <strong className="text-slate-950 dark:text-white">Desde la aplicación móvil:</strong> Ingresa a tu menú de <em>Perfil &gt; Configuración &gt; Seguridad</em> y selecciona la opción <strong>&quot;Dar de baja mi cuenta&quot;</strong>. Por seguridad, se enviará un código de verificación único (OTP) de 6 dígitos a tu correo electrónico para confirmar la solicitud.
+                  </li>
+                  <li>
+                    <strong className="text-slate-950 dark:text-white">Vía correo electrónico (Soporte):</strong> Puedes solicitar la baja enviando un mensaje a <a href="mailto:soporte@tulojita.com" className="text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">soporte@tulojita.com</a> desde la misma dirección de correo electrónico registrada en la plataforma, indicando en el asunto <em>&quot;Solicitud de Eliminación de Cuenta - Tu Lojita&quot;</em>.
+                  </li>
+                </ul>
               </div>
 
+              {/* Categorías de datos */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-red-50/70 dark:bg-red-950/30 border border-red-200 dark:border-red-900/50">
+                  <h4 className="font-bold text-red-950 dark:text-red-200 text-sm sm:text-base mb-2">
+                    Datos eliminados de inmediato
+                  </h4>
+                  <ul className="text-xs sm:text-sm text-red-900/90 dark:text-red-200/90 space-y-1.5 list-disc list-inside leading-relaxed">
+                    <li>Contraseñas y credenciales de acceso.</li>
+                    <li>Vinculación y tokens de Google OAuth.</li>
+                    <li>Tokens de notificaciones push (FCM) e identificadores de dispositivos.</li>
+                    <li>Foto de perfil y datos personales de contacto.</li>
+                    <li>Sesiones activas cerradas en todos los dispositivos.</li>
+                    <li><strong>Liberación de correo:</strong> Tu dirección de correo queda liberada inmediatamente en caso de que desees crear una nueva cuenta en el futuro.</li>
+                  </ul>
+                </div>
+
+                <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-blue-50/70 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-900/50">
+                  <h4 className="font-bold text-blue-950 dark:text-blue-200 text-sm sm:text-base mb-2">
+                    Datos conservados y retención legal
+                  </h4>
+                  <p className="text-xs sm:text-sm text-blue-950 dark:text-blue-100 leading-relaxed mb-2">
+                    Conforme a la legislación comercial, tributaria y de prevención de fraudes, se conservan de forma anonimizada y archivada:
+                  </p>
+                  <ul className="text-xs sm:text-sm text-blue-900/90 dark:text-blue-200/90 space-y-1.5 list-disc list-inside leading-relaxed">
+                    <li>Historial de compras, ventas y recibos de pago.</li>
+                    <li>Facturas electrónicas y contratos de crédito emitidos.</li>
+                    <li><strong>Periodo de retención:</strong> Plazo legal de <strong>5 años</strong> para efectos contables y fiscales, tras el cual se purgan automáticamente.</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Excepción */}
               <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800">
                 <h3 className="font-bold text-amber-950 dark:text-amber-200 text-sm sm:text-base mb-1">
-                  Excepción
+                  Excepción y compromisos pendientes
                 </h3>
                 <p className="text-sm sm:text-base text-amber-950 dark:text-amber-100 leading-relaxed">
-                  La eliminación de la cuenta no procederá de forma inmediata en caso de que el Usuario mantenga compromisos de pago pendientes, disputas activas o procesos de cobro abiertos con un perfil Empresa.
+                  La eliminación de la cuenta no procederá de forma inmediata en caso de que el Usuario mantenga compromisos de pago pendientes (cuotas de crédito activas), pedidos en curso de entrega o procesos de disputa y cobro abiertos con un comercio o perfil Empresa. Una vez liquidadas dichas obligaciones, la solicitud se ejecutará sin restricciones.
                 </p>
               </div>
             </div>
