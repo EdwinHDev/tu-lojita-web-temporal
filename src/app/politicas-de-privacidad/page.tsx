@@ -144,18 +144,45 @@ export default function PoliticasDePrivacidadPage() {
 
             <div className="space-y-4">
               {/* Canales de solicitud */}
-              <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700">
-                <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-2">
+              <div className="p-4 sm:p-5 rounded-xl sm:rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 space-y-3">
+                <h3 className="font-bold text-slate-950 dark:text-white text-sm sm:text-base mb-1">
                   Procedimiento para solicitar la eliminación de cuenta
                 </h3>
-                <ul className="text-sm sm:text-base text-slate-800 dark:text-slate-200 space-y-2 list-disc list-inside leading-relaxed">
-                  <li>
-                    <strong className="text-slate-950 dark:text-white">Desde la aplicación móvil:</strong> Ingresa a tu menú de <em>Perfil &gt; Configuración &gt; Seguridad</em> y selecciona la opción <strong>&quot;Dar de baja mi cuenta&quot;</strong>. Por seguridad, se enviará un código de verificación único (OTP) de 6 dígitos a tu correo electrónico para confirmar la solicitud.
-                  </li>
-                  <li>
-                    <strong className="text-slate-950 dark:text-white">Vía correo electrónico (Soporte):</strong> Puedes solicitar la baja enviando un mensaje a <a href="mailto:soporte@tulojita.com" className="text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">soporte@tulojita.com</a> desde la misma dirección de correo electrónico registrada en la plataforma, indicando en el asunto <em>&quot;Solicitud de Eliminación de Cuenta - Tu Lojita&quot;</em>.
-                  </li>
-                </ul>
+                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300">
+                  Cualquier usuario puede dar de baja y eliminar su cuenta de manera autónoma directamente desde nuestras aplicaciones móviles o a través de nuestros canales de soporte:
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
+                  <div className="p-3 sm:p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80">
+                    <div className="flex items-center gap-2 mb-1.5">
+                      <span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                      <strong className="text-slate-950 dark:text-white text-xs sm:text-sm">Tu Lojita (App de Clientes / Compradores)</strong>
+                    </div>
+                    <ol className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 space-y-1 list-decimal list-inside leading-relaxed">
+                      <li>Abre la aplicación <strong>Tu Lojita</strong> en tu dispositivo.</li>
+                      <li>Dirígete a <strong>Perfil &gt; Seguridad</strong>.</li>
+                      <li>Al final de la pantalla, pulsa en <strong>&quot;Dar de baja mi cuenta&quot;</strong>.</li>
+                      <li>Toca en <em>&quot;Enviar código de verificación&quot;</em> e introduce el código OTP de 6 dígitos recibido en tu correo electrónico para procesar la baja inmediata.</li>
+                    </ol>
+                  </div>
+
+                  <div className="p-3 sm:p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700/80">
+                    <div className="flex items-center gap-2 mb-1.5">
+                      <span className="inline-block w-2.5 h-2.5 rounded-full bg-indigo-500"></span>
+                      <strong className="text-slate-950 dark:text-white text-xs sm:text-sm">Tu Lojita Business (App de Empresas)</strong>
+                    </div>
+                    <ol className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 space-y-1 list-decimal list-inside leading-relaxed">
+                      <li>Abre la app <strong>Tu Lojita Business</strong> con tu sesión activa.</li>
+                      <li>Entra en <strong>Ajustes</strong> o en la pestaña de <strong>Perfil</strong>.</li>
+                      <li>Ubica la sección <em>Zona de Peligro</em> y pulsa <strong>&quot;Dar de baja mi cuenta&quot;</strong>.</li>
+                      <li>Confirma la solicitud ingresando el código OTP de 6 dígitos despachado a tu correo de seguridad.</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div className="p-3 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs sm:text-sm text-slate-800 dark:text-slate-200">
+                  <strong className="text-slate-950 dark:text-white">Canal alternativo por Correo Electrónico (Soporte):</strong> Si no tienes acceso a la app, solicita la baja escribiendo a <a href="mailto:soporte@tulojita.com" className="text-indigo-600 dark:text-indigo-400 font-semibold hover:underline">soporte@tulojita.com</a> desde el correo registrado indicando en el asunto <em>&quot;Solicitud de Eliminación de Cuenta - Tu Lojita&quot;</em>.
+                </div>
               </div>
 
               {/* Categorías de datos */}
